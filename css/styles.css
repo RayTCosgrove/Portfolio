@@ -41,6 +41,10 @@ svg{
     bottom: 0;
     left:0;
 }
+#topwave{
+    top: 100vh;
+    bottom:inherit;
+}
 
 
 /*autohide nav on scroll*/
