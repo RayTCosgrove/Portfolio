@@ -1,0 +1,65 @@
+
+
+
+$theme-colors: (primary: #55d6c2, secondary: #ff5d73, success: $green, info: $cyan, warning: $yellow, danger: $red, light: #f8f0e6, dark: $gray-800);
+
+
+
+// Body
+$body-bg: #fff8ef;
+$body-color: $gray-900;
+
+
+// Links
+$link-color: theme-color('secondary');
+$link-decoration: none;
+$link-hover-color: darken($link-color, 15%);
+$link-hover-decoration: underline;
+
+
+
+// Fonts
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$font-family-monospace: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+$font-family-base: $font-family-sans-serif;
+$font-size-base: 1rem;
+$font-size-lg: 1.25rem;
+$font-size-sm: 0.875rem;
+$font-weight-normal: normal;
+$font-weight-bold: bold;
+$font-weight-base: $font-weight-normal;
+$line-height-base: 1.5;
+$h1-font-size: 2.5rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.75rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
+$headings-margin-bottom: ($spacer / 2);
+$headings-font-family: inherit;
+$headings-font-weight: 500;
+$headings-line-height: 1.1;
+$headings-color: inherit;
+$display1-size: 6rem;
+$display2-size: 5.5rem;
+$display3-size: 4.5rem;
+$display4-size: 3.5rem;
+$display1-weight: 300;
+$display2-weight: 300;
+$display3-weight: 300;
+$display4-weight: 300;
+$display-line-height: $headings-line-height;
+$lead-font-size: 1.25rem;
+$lead-font-weight: 300;
+$small-font-size: 80%;
+$text-muted: $gray-600;
+$blockquote-small-color: $gray-600;
+$blockquote-font-size: ($font-size-base * 1.25);
+$hr-border-color: rgba($black, 0.1);
+$hr-border-width: $border-width;
+$mark-padding: 0.2em;
+$dt-font-weight: $font-weight-bold;
+$kbd-box-shadow: inset 0 -0.1rem 0 rgba($black, 0.25);
+$nested-kbd-font-weight: $font-weight-bold;
+$list-inline-padding: 5px;
+$mark-bg: #fcf8e3;

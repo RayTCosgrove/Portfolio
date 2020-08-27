@@ -1,0 +1,52 @@
+/*Theme colors*/
+
+.bg-primary{
+    background-color: #55d6c2;
+}
+.bg-secondary{
+    background-color: #ff5d73;
+}
+.bg-light{
+    background-color: #f8f0e6;
+}
+.bg-body{
+    background-color: #fff8ef;
+}
+
+*{
+    font-family: 'Dosis', sans-serif; 
+    
+}
+
+body{
+    height:2000px;
+}
+
+#navbar{
+    width: 85.5%;
+    margin: auto;
+}
+
+.ls-8{
+    letter-spacing: 8px;
+}
+
+.ls-4{
+    letter-spacing: 4px;
+}
+
+svg{
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+
+
+/*autohide nav on scroll*/
+.scrolled-up{
+    transform:translateY(0); transition: all 0.35s ease-in-out;
+}
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.35s ease-in-out;
+}
