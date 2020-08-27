@@ -15,7 +15,7 @@
 
 *{
     font-family: 'Dosis', sans-serif; 
-    
+    scroll-behavior: smooth;
 }
 
 body{
@@ -23,8 +23,26 @@ body{
 }
 
 #navbar{
-    width: 85.5%;
+    width: 79.5%;
     margin: auto;
+    position: sticky;
+    top:0px;
+    left: 0px;
+}
+
+#landing-info{
+    height: 100vh;
+
+}
+
+.btn-outline-primary{
+    color: #ff5d73;
+    border-color: #ff5d73;;
+}
+.btn-outline-primary:hover{
+    color: #ffffff;
+    border-color: #ff5d73;
+    background-color: #ff5d73;
 }
 
 .ls-8{
@@ -36,11 +54,19 @@ body{
 }
 
 svg{
-    width:100%;
+    width: 100%;
+    max-height: 640px;
     position: absolute;
     bottom: 0;
-    left:0;
+    right:0;
+    z-index: -1;
+    
 }
+
+#coverwave{
+    width: 100%;
+}
+
 #topwave{
     top: 100vh;
     bottom:inherit;
@@ -49,8 +75,8 @@ svg{
 
 /*autohide nav on scroll*/
 .scrolled-up{
-    transform:translateY(0); transition: all 0.35s ease-in-out;
+    transform:translateY(0); transition: all 0.4s ease-in-out;
 }
 .scrolled-down{
-    transform:translateY(-100%); transition: all 0.35s ease-in-out;
+    transform:translateY(-100%); transition: all 0.4s ease-in-out;
 }
