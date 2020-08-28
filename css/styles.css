@@ -15,7 +15,7 @@
 
 *{
     font-family: 'Dosis', sans-serif; 
-    scroll-behavior: smooth;
+    
 }
 
 body{
@@ -31,9 +31,8 @@ body{
 }
 
 #landing-info{
-    height: 100vh;
-
-}
+    
+    }
 
 .btn-outline-primary{
     color: #ff5d73;
