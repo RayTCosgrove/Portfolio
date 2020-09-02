@@ -1,26 +1,54 @@
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos < currentScrollPos && currentScrollPos> window.innerHeight*.2 ) {
-    $("#navbar").removeClass('scrolled-up').addClass('scrolled-down')
+var currentScrollPos = window.pageYOffset;
+console.log(currentScrollPos)
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+    if(currentScrollPos!=0){
+    document.getElementById("navbar").style.boxShadow = "rgba(2, 12, 27, 0.05) 0px 10px 30px -10px";
+    }else{
+      document.getElementById("navbar").style.boxShadow = "";
 
+    }
   } else {
-    $("#navbar").removeClass('scrolled-down').addClass('scrolled-up')
+    if(currentScrollPos>50){
+    document.getElementById("navbar").style.top = "-60px";
+    }
   }
   prevScrollpos = currentScrollPos;
 }
 
-window.onload = function(){
+window.onload = function () {
+  // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+  $("#topwave").css("top", innerHeight);
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
 
-  $("#topwave").css("top",innerHeight);
- 
-  $('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
+document.getElementById("socials-left").style.left = "40px";
+document.getElementById("socials-right").style.right = "40px";
+document.getElementById("raymie").style.right = "25%";
+
+  
+
+  $("a").click(function () {
+    $("html, body").animate(
+      {
+        scrollTop: $($.attr(this, "href")).offset().top,
+      },
+      500
+    );
     return false;
+  });
+
+  $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+
+ 
 });
 
-}
 
+
+
+};
