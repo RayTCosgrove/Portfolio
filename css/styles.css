@@ -62,6 +62,10 @@ a:hover{
     color: #ff5d73;
 }
 
+.ma5{
+margin: auto 5%;
+}
+
 ul.technologies {
     columns: 2;
     -webkit-columns: 2;
