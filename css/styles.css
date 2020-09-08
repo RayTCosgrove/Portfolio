@@ -20,8 +20,8 @@
 }
 
 section.row {
-  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-  height: calc(var(--vh, 1vh) * 100);
+  min-height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  min-height: calc(var(--vh, 1vh) * 100);
 }
 
 html,
@@ -65,6 +65,13 @@ a:hover{
 .ma5{
 margin: auto 5%;
 }
+.ma{
+  margin: auto 0
+}
+
+.card-body:hover{
+  background-color: #f8f9fa;
+}
 
 ul.technologies {
     columns: 2;
@@ -76,7 +83,22 @@ ul.technologies {
 
   ul.technologies li::before {
     content: ">";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #ff5d73; /* Change the color */
+    color: #55d6c2; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+  ul.experience{
+    list-style-type: none;
+    padding-left: 20px;
+
+  }
+
+  ul.experience li::before {
+    content: ">";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #55d6c2; /* Change the color */
     font-weight: bold; /* If you want it to be bold */
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
@@ -148,6 +170,14 @@ a.email-right:hover{
     font-size: 1.1rem;
 }
 
+.card-body > ul > li{
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+.card-body > ul{
+  padding-left:10px;
+}
+
 .inner-vrule{
     margin: 16px auto 0px auto;
     width: 1px;
@@ -203,6 +233,10 @@ a.email-right:hover{
 
 .ls-4 {
   letter-spacing: 3px;
+}
+
+.ls-1{
+  letter-spacing: 1px;
 }
 
 @keyframes animateWave {

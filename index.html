@@ -1,164 +1,448 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <title>Hello, world!</title>
   </head>
   <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-body">
-            
     <a class="navbar-brand ls-4" href="#">RTC</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav" data-toggle="collapse" data-target=".navbar-collapse.show">
-        <ul class="navbar-nav ml-auto" data-toggle="collapse" data-target=".navbar-collapse.show">
-        <li class="nav-item "  data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="nav-link ls-4 mr-4" href="#about" >00. About <span class="sr-only">(current)</span></a>
+    <div
+      class="collapse navbar-collapse"
+      id="navbarNav"
+      data-toggle="collapse"
+      data-target=".navbar-collapse.show"
+    >
+      <ul
+        class="navbar-nav ml-auto"
+        data-toggle="collapse"
+        data-target=".navbar-collapse.show"
+      >
+        <li
+          class="nav-item"
+          data-toggle="collapse"
+          data-target=".navbar-collapse.show"
+        >
+          <a class="nav-link ls-4 mr-4" href="#about"
+            >00. About <span class="sr-only">(current)</span></a
+          >
         </li>
-        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="nav-link ls-4 mr-4" href="#projects">01. Projects</a>
+        <li
+          class="nav-item"
+          data-toggle="collapse"
+          data-target=".navbar-collapse.show"
+        >
+          <a class="nav-link ls-4 mr-4" href="#projects">01. Projects</a>
         </li>
-        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <a class="nav-link ls-4 mr-4" href="#contact">02. Contact</a>
+        <li
+          class="nav-item"
+          data-toggle="collapse"
+          data-target=".navbar-collapse.show"
+        >
+          <a class="nav-link ls-4 mr-4" href="#contact">02. Contact</a>
         </li>
-        
-        </ul>
+        <li
+          class="nav-item"
+          data-toggle="collapse"
+          data-target=".navbar-collapse.show"
+        >
+        <a href="mailto:raytcosgrove@vt.edu"
+        ><button type="button" class="btn btin-sm btn-outline-primary">
+          Resume
+        </button></a
+        </li>
+      </ul>
     </div>
-
-    </nav>
+  </nav>
 
   <body class="bg-body pt-5">
-      
     <div class="container-fluid">
-    <div class="socials-left d-none d-lg-block d-xl-block" id="socials-left">
-        
-            <li class="socials"><a href="https://github.com/raytcosgrove" target="_blank" rel="nofollow noopener noreferrer" aria-label="GitHub" class="social-link"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 438.549 438.549"><title>GitHub</title><path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365 c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63 c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996 c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136 c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559 c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559 c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997 c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851 c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136 c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41 c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126 c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817 c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994 c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849 c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24 c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979 c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146 c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995 c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906 C438.536,184.851,428.728,148.168,409.132,114.573z"></path></svg></a></li>
-            <li class="socials"><a href="https://www.linkedin.com/in/raytcosgrove" target="_blank" rel="nofollow noopener noreferrer" aria-label="Linkedin" class="social-link"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 430.117 430.117"><title>LinkedIn</title><path d="M430.117,261.543V420.56h-92.188V272.193c0-37.271-13.334-62.707-46.703-62.707 c-25.473,0-40.632,17.142-47.301,33.724c-2.432,5.928-3.058,14.179-3.058,22.477V420.56h-92.219c0,0,1.242-251.285,0-277.32h92.21 v39.309c-0.187,0.294-0.43,0.611-0.606,0.896h0.606v-0.896c12.251-18.869,34.13-45.824,83.102-45.824 C384.633,136.724,430.117,176.361,430.117,261.543z M52.183,9.558C20.635,9.558,0,30.251,0,57.463 c0,26.619,20.038,47.94,50.959,47.94h0.616c32.159,0,52.159-21.317,52.159-47.94C103.128,30.251,83.734,9.558,52.183,9.558z M5.477,420.56h92.184v-277.32H5.477V420.56z"></path></svg></a></li>
-            
-            <li class="inner-vrule"></li>
-    </div>
-    <div class="socials-right d-none d-lg-block d-xl-block" id="socials-right">
-        <div class="email-right">
-        <a href="mailto:raytcosgrove@vt.edu" class="email-right ls-4">raytcosgrove@vt.edu</a>
-    
+      <div class="socials-left d-none d-lg-block d-xl-block" id="socials-left">
+        <li class="socials">
+          <a
+            href="https://github.com/raytcosgrove"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            aria-label="GitHub"
+            class="social-link"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 438.549 438.549"
+            >
+              <title>GitHub</title>
+              <path
+                d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365 c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63 c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996 c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136 c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559 c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559 c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997 c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851 c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136 c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41 c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126 c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817 c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994 c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849 c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24 c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979 c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146 c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995 c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906 C438.536,184.851,428.728,148.168,409.132,114.573z"
+              ></path></svg
+          ></a>
+        </li>
+        <li class="socials">
+          <a
+            href="https://www.linkedin.com/in/raytcosgrove"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            aria-label="Linkedin"
+            class="social-link"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 430.117 430.117"
+            >
+              <title>LinkedIn</title>
+              <path
+                d="M430.117,261.543V420.56h-92.188V272.193c0-37.271-13.334-62.707-46.703-62.707 c-25.473,0-40.632,17.142-47.301,33.724c-2.432,5.928-3.058,14.179-3.058,22.477V420.56h-92.219c0,0,1.242-251.285,0-277.32h92.21 v39.309c-0.187,0.294-0.43,0.611-0.606,0.896h0.606v-0.896c12.251-18.869,34.13-45.824,83.102-45.824 C384.633,136.724,430.117,176.361,430.117,261.543z M52.183,9.558C20.635,9.558,0,30.251,0,57.463 c0,26.619,20.038,47.94,50.959,47.94h0.616c32.159,0,52.159-21.317,52.159-47.94C103.128,30.251,83.734,9.558,52.183,9.558z M5.477,420.56h92.184v-277.32H5.477V420.56z"
+              ></path></svg
+          ></a>
+        </li>
+
         <li class="inner-vrule"></li>
-    </div>
-    </div>
-    
-    
+      </div>
+      <div
+        class="socials-right d-none d-lg-block d-xl-block"
+        id="socials-right"
+      >
+        <div class="email-right">
+          <a href="mailto:raytcosgrove@vt.edu" class="email-right ls-4"
+            >raytcosgrove@vt.edu</a
+          >
 
-        <section class="row"  id="landing-info">
+          <li class="inner-vrule"></li>
+        </div>
+      </div>
 
-            <div class="col col-lg-4 col-sm-12 offset-lg-1 col-xl-4 text-center mt-5">
-                <h1 class="display-3 ls-8">RAYMOND</h1>
-                <h1 class="display-3 ls-8">COSGROVE</h1>
-                <p class="lead ls-4 ml-1 mt-4"> Hi! I'm a computer science major  currently studying at Virginia Tech!</p>
-                <a  href="mailto:raytcosgrove@vt.edu"><button type="button" class="btn btn-lg btn-outline-primary mt-4">Let's chat!</button></a>
+      <section class="row" id="landing-info">
+        <div
+          class="col col-lg-4 col-sm-12 offset-lg-1 col-xl-4 text-center mt-5"
+        >
+          <h1 class="display-3 ls-8">RAYMOND</h1>
+          <h1 class="display-3 ls-8">COSGROVE</h1>
+          <p class="lead ls-4 ml-1 mt-4">
+            Hi! I'm a computer science major currently studying at Virginia
+            Tech!
+          </p>
+          <a href="mailto:raytcosgrove@vt.edu"
+            ><button type="button" class="btn btn-lg btn-outline-primary mt-4">
+              Let's chat!
+            </button></a
+          >
+        </div>
+      </section>
+      <section class="row justify-content-center" id="about">
+        <div class="col col-lg-5 col-sm-12 offset-lg-1 col-xl-4 ma5">
+          <div class="strike">
+            <h1>
+              <small class="text-muted" style="margin-right: 10px">00.</small>
+              About Me
+            </h1>
+          </div>
+          <div id="about-info" class="mt-4 ls-4">
+            <p>
+              Hi! I'm Raymond, a computer science student based out of Northern
+              Virginia.
+            </p>
+            <p>
+              After writing my first line of code in 6th grade, I fell in love.
+              I enjoy all sorts of development, whether it's a web-app, video
+              game, business software, or anything in between.
+            </p>
+            <p>
+              I've been fortunate enough to have the opportunity to continue my
+              studies at
+              <a href="http://www.vt.edu" target="_blank">Virginia Tech</a>,
+              where I currently major in Computer Science. Additionally, I've had the pleasure of participating in internship programs at companies such as <a href="https://investor.vanguard.com/home" target="_blank"
+              >Vanguard</a
+            >.
+            </p>
+            <p>Some technologies I enjoy using are:</p>
+            <ul class="technologies">
+              <li>Java</li>
+              <li>Javascript</li>
+              <li>Angular</li>
+              <li>Python</li>
+              <li>HTML5/CSS3</li>
+              <li>Node.js</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col col-lg-6 col-sm-12 offset-lg-1 col-xl-5 ma5">
+          <h1>
+            <small class="text-muted" style="margin-right: 10px"
+              >Where I've Worked</small
+            >
+          </h1>
+
+          <div id="about-info" class="mt-4">
+            <div class="card bg-body mb-3">
+              <div class="card-header ls-4">
+                <strong
+                  ><a href="https://investor.vanguard.com/home" target="_blank"
+                    >Vanguard</a
+                  ></strong
+                >              <small class="text-muted ls-1" >Software Engineering Intern</small>
+              </div>
+              <div class="card-body ls-1">
+                <ul class="experience">
+                  <li>
+                    Adapted, debugged, and migrated Pivotal Cloud Foundry
+                    web-services and batch applications to
+                    <strong>AWS ECS Fargate</strong>.
+                  </li>
+                  <li>
+                    Worked with a team to develop a <strong>MEAN</strong> stack
+                    web application to support Vanguard’s Intramural Sports
+                    League.
+                  </li>
+                  <li>
+                    Utilized <strong>AWS Lambda Functions</strong> to increase
+                    web-service resiliency and optimize webservices’ mean time
+                    to recovery.
+                  </li>
+                  <li>
+                    Created documentation from scratch regarding the entire
+                    web-service migration process for Vanguard to utilize during
+                    future migrations.
+                  </li>
+                </ul>
+              </div>
             </div>
-            
-        
+            <div class="card bg-body mb-3">
+              <div class="card-header ls-4">
+                <strong
+                  ><a href="https://www.kingsmantech.com/" target="_blank"
+                    >Kingsman Technology Solutions</a
+                  ></strong
+                >                              <small class="text-muted ls-1" >Front End Web Developer</small>
 
-        </section>
-        <section  class="row" id="about">
-            <div class="col col-lg-6 col-sm-12 offset-lg-1 col-xl-5 ma5" >
-                <div class="strike">
-                    <h1>
-                    <small class="text-muted" style="margin-right: 10px;">00.</small>
-                    About Me
-                  </h1>
-                </div>
-                <div id="about-info" class="mt-4 ls-4">
-                <p>Hi! I'm Raymond, a computer science student based out of Northern Virginia.</p>
-                <p>After writing my first line of code in 6th grade, I fell in love. I enjoy all sorts of development, whether it's on the web, a local application, or anything in between.  </p>
-                <p>I've been fortunate enough to have the opportunity to continue my studies at <a href="http://www.vt.edu" target="_blank">Virginia Tech</a>, where I currently major in Computer Science.</p>
-                <p>Some technologies I enjoy using are: </p>
-                <ul class="technologies">
-                    <li>Java</li>
-                    <li>Javascript</li>
-                    <li>Angular</li>
-                    <li>Python</li>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
+              </div>
+              <div class="card-body ls-1">
+                <ul class="experience">
+                  <li>
+                    Developed a new employer/employee matching system for HUBZones.
+                  </li>
+                  <li>
+                    Utilized <strong>AngularJs, Bootstrap, HTML5</strong>, and <strong>CSS3</strong> to develop the front end of the single page application.
+                  </li>
+                  <li>
+                    Implemented <strong>SLO</strong> authentication and identity management system using <strong>Azure Active Directory</strong>.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          id="raymie"
+          src="./images/raymie.png"
+          class="d-none d-xl-block"
+          width="417px"
+          height="500px"
+        />
+      </section>
+
+      <section class="row pt-5 justify-content-center" id="projects">
+        <div class="col col-sm-10">
+          <div class="strike">
+            <h1>
+              <small class="text-muted" style="margin-right: 10px">01.</small>
+              Projects
+            </h1>
+          </div>
+        </div>
+      
+        <div class="col col-sm-10">
+          <div class="list-group mt-4">
+            <div class="list-group-item list-group-item-action flex-column align-items-start bg-body">
+              <div class="d-flex w-100 justify-content-between">
+                <div class="ma">
+                <a href="http://www.google.com"><h4 class="mb-3">Spotifuse</h4></a>
+                <ul class="experience">
+                  <li>
+                    Built a <strong>MEAN</strong> stack application to create Spotify playlists for users and their friends.
+                  </li>
+                  <li>
+                    Developed an algorithm to search through the types of music users like and find music that they and their friends both might like.
+                  </li>
+                  <li>
+                    Utilized Spotify’s publicly available <strong>REST</strong> api to authenticate users get information about their listening behavior as well as for seeded recommendations.
+                  </li>
+                  <li>
+                    Designed the single page web application using Google’s <strong>Material Design</strong> framework for Angular.
+                  </li>
                 </ul>
                 </div>
-            </div>
-            <img id="raymie" src="./images/raymie.png" class="d-none d-xl-block" width="417px" height="500px"/>
-        </section>
-
-
-        <section  class="row pt-5" id="projects">
-            
-            
-            <div class="col col-lg-8 col-sm-12 col-xl-8 offset-lg-3">
-                <div class="strike" >
-                    <h1>
-                    <small class="text-muted" style="margin-right: 10px;">01.</small>
-                    Projects
-                  </h1>
-                </div>
-            </div>
-            
-            
-        </section>
-
-        <section  class="row pt-5" id="contact">
-            <div class="col col-lg-5 col-sm-12 offset-lg-1 col-xl-5">
                 
+                  <div class="text-right ml-5 pl-5">
+                    <small>2020</small>
+                    <img src="./images/raymie.png" width="200" height="200"/>
+                  
+                  </div>
+              
+              </div>
+              
             </div>
-            <div class="col col-lg-6 col-sm-12 col-xl-5">
-                <div class="strike">
-                    <h1>
-                    <small class="text-muted" style="margin-right: 10px;">01.</small>
-                    Contact
-                  </h1>
+            <div class="list-group-item list-group-item-action flex-column align-items-start bg-body">
+              <div class="d-flex w-100 justify-content-between">
+                <div class="ma">
+                  <a href="http://www.google.com"><h4 class="mb-3">Tetr.js</h4></a>
+                <ul class="experience">
+                  <li>
+                    Built a webcam-controlled Tetris game using <strong>HTML, CSS, Javascript</strong>, and a high-level <strong>machine learning</strong> library.
+                  </li>
+                  <li>
+                    Used a machine learning algorithm on a live video feed to track the position of body parts in order to detect gestures that control the tetrominos in-game.
+                  </li>
+                  <li>
+                    Won best UI/UX in Virginia Tech’s 2019 Hackathon.
+                  </li>
+
+                </ul>
                 </div>
+                
+                  <div class="text-right ml-5 pl-5">
+                    <small>2019</small>
+                    <img src="./images/raymie.png" width="200" height="200"/>
+                  </div>
+                
+              </div>
             </div>
-        </section>
+            <div href="#" class="list-group-item list-group-item-action flex-column align-items-start bg-body">
+              <div class="d-flex w-100 justify-content-between">
+                <div class="ma">
+                  <a href="http://www.google.com"> <h4 class="mb-3">Soduku Backtracking Visualizer</h4></a>
+                <ul class="experience">
+                  <li>
+                    Built a <strong>ReactJS</strong> web application in order to visualize sudoku puzzles being solved using a recursive backtracking algorithm.
+                  </li>
+                  <li>
+                    Included user controls to tweak the speed of the algorithm as well as pause/play/reset functionality.
+                  </li>
+                  <li>
+                    Constructed plans to extend the application to allow custom sudoku puzzles and further explain the solving algorithm.
+                  </li>
 
-    </div>
+                </ul>                </div>
+                
+                  <div class="text-right ml-5 pl-5">
+                    <small>2019</small>
+                    <img src="./images/raymie.png" width="200" height="200"/>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </section>
 
-    
-    <svg class="wave" id="backwave" viewBox="0 0 1440 480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-        <metadata id="metadata39">image/svg+xml</metadata>
-        <g>
-         <title>Layer 1</title>
-         <path id="path31" d="m-30.73698,388.67848l20.73676,9.42861c26.56471,21.7 120.50267,37.58293 173.43235,16.58293c53.22929,-21 102.1158,-61.88871 155.04549,-61.58871c53.22929,-0.3 111.60032,40.58871 164.53001,66.88871c53.22929,26.7 106.85806,-5.3 159.78775,-32c53.22929,-26.3 108.04362,2.747 160.97331,-7.553c53.22929,-10.7 86.70347,-113.98113 139.63316,-140.68113c53.22929,-26.3 28.6108,-106.41706 81.54049,-132.71706c49.67262,-39.75853 109.22921,-80.12127 162.1589,-48.12127c60.34264,29.62572 29.79632,147.04699 126.89574,259.77246l100.46914,109.16406l60.46378,88.8244l-59.86039,-37.98846l-133.12317,0l-159.78775,0l-159.78773,0l-159.78775,0l-159.78775,0l-159.78775,0l-159.78775,0l-159.78775,0l-132.82357,0l-26.96418,0l-34.38137,-90.01154l0.00003,0z" fill="#f8f0e6"/>
-        </g>
-       </svg>
- 
+      <section class="row pt-5 justify-content-center" id="contact">
+        <div class="col col-sm-10">
+          <div class="strike">
+            <h1>
+              <small class="text-muted" style="margin-right: 10px">01.</small>
+              Contact
+            </h1>
+          </div>
+        </div>
+      </section>
 
-       <svg class="wave" id="backwave" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-        <g>
-         <title>Layer 1</title>
-         <path id="svg_1" d="m-90,204l34.3,-21.3c34.3,-21.7 102.7,-63.7 171.7,-58.7c68.3,5 137,59 205,69.3c69,10.7 138,-21.3 206,-10.6c68.7,10.3 137,64.3 206,69.3c68.4,5 137,-37 206,-90.7c68.1,-53.3 137,-117.3 205,-101.3c68.9,16 137,112 172,160l34,48l0,32l-34.3,0c-34.3,0 -102.7,0 -171.7,0c-68.3,0 -137,0 -205,0c-69,0 -138,0 -206,0c-68.7,0 -137,0 -206,0c-68.4,0 -137,0 -206,0c-68.1,0 -137,0 -205,0c-68.9,0 -137,0 -172,0l-34,0l0,-96z" fill="#ff5d73"/>
-        </g>
-       </svg>
+    <svg
+      class="wave"
+      id="backwave"
+      viewBox="0 0 1440 480"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:svg="http://www.w3.org/2000/svg"
+    >
+      <metadata id="metadata39">image/svg+xml</metadata>
+      <g>
+        <title>Layer 1</title>
+        <path
+          id="path31"
+          d="m-30.73698,388.67848l20.73676,9.42861c26.56471,21.7 120.50267,37.58293 173.43235,16.58293c53.22929,-21 102.1158,-61.88871 155.04549,-61.58871c53.22929,-0.3 111.60032,40.58871 164.53001,66.88871c53.22929,26.7 106.85806,-5.3 159.78775,-32c53.22929,-26.3 108.04362,2.747 160.97331,-7.553c53.22929,-10.7 86.70347,-113.98113 139.63316,-140.68113c53.22929,-26.3 28.6108,-106.41706 81.54049,-132.71706c49.67262,-39.75853 109.22921,-80.12127 162.1589,-48.12127c60.34264,29.62572 29.79632,147.04699 126.89574,259.77246l100.46914,109.16406l60.46378,88.8244l-59.86039,-37.98846l-133.12317,0l-159.78775,0l-159.78773,0l-159.78775,0l-159.78775,0l-159.78775,0l-159.78775,0l-159.78775,0l-132.82357,0l-26.96418,0l-34.38137,-90.01154l0.00003,0z"
+          fill="#f8f0e6"
+        />
+      </g>
+    </svg>
 
-           <svg id="coverwave" class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#55d6c2" fill-opacity="1" d="M0,128L34.3,128C68.6,128,137,128,206,154.7C274.3,181,343,235,411,250.7C480,267,549,245,617,240C685.7,235,754,245,823,245.3C891.4,245,960,235,1029,213.3C1097.1,192,1166,160,1234,160C1302.9,160,1371,192,1406,208L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
-         
-           <svg id="topwave"  class="wave" viewBox="0 0 1440 160" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-            <g>
-             <title>Layer 1</title>
-             <path fill="#55d6c2" d="m0,63.47116l48,-2.6281c48,-2.82645 144,-7.78513 240,-2.67769c96,5.30579 192,21.17358 288,13.23969c96,-7.9339 192,-39.66948 288,-34.36368c96,5.10744 192,47.75213 288,52.85958c96,5.30579 192,-26.42979 240,-42.29758l48,-15.86779l0,-31.73558l-48,0c-48,0 -144,0 -240,0c-96,0 -192,0 -288,0c-96,0 -192,0 -288,0c-96,0 -192,0 -288,0c-96,0 -192,0 -240,0l-48,0l0,63.47116l0,-0.00001z" id="svg_1"/>
-            </g>
-           </svg>
+    <svg
+      class="wave"
+      id="backwave"
+      viewBox="0 0 1440 320"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:svg="http://www.w3.org/2000/svg"
+    >
+      <g>
+        <title>Layer 1</title>
+        <path
+          id="svg_1"
+          d="m-90,204l34.3,-21.3c34.3,-21.7 102.7,-63.7 171.7,-58.7c68.3,5 137,59 205,69.3c69,10.7 138,-21.3 206,-10.6c68.7,10.3 137,64.3 206,69.3c68.4,5 137,-37 206,-90.7c68.1,-53.3 137,-117.3 205,-101.3c68.9,16 137,112 172,160l34,48l0,32l-34.3,0c-34.3,0 -102.7,0 -171.7,0c-68.3,0 -137,0 -205,0c-69,0 -138,0 -206,0c-68.7,0 -137,0 -206,0c-68.4,0 -137,0 -206,0c-68.1,0 -137,0 -205,0c-68.9,0 -137,0 -172,0l-34,0l0,-96z"
+          fill="#ff5d73"
+        />
+      </g>
+    </svg>
+
+    <svg
+      id="coverwave"
+      class="wave"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#55d6c2"
+        fill-opacity="1"
+        d="M0,128L34.3,128C68.6,128,137,128,206,154.7C274.3,181,343,235,411,250.7C480,267,549,245,617,240C685.7,235,754,245,823,245.3C891.4,245,960,235,1029,213.3C1097.1,192,1166,160,1234,160C1302.9,160,1371,192,1406,208L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+      ></path>
+    </svg>
+
+    <svg
+      id="topwave"
+      class="wave"
+      viewBox="0 0 1440 160"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:svg="http://www.w3.org/2000/svg"
+    >
+      <g>
+        <title>Layer 1</title>
+        <path
+          fill="#55d6c2"
+          d="m0,63.47116l48,-2.6281c48,-2.82645 144,-7.78513 240,-2.67769c96,5.30579 192,21.17358 288,13.23969c96,-7.9339 192,-39.66948 288,-34.36368c96,5.10744 192,47.75213 288,52.85958c96,5.30579 192,-26.42979 240,-42.29758l48,-15.86779l0,-31.73558l-48,0c-48,0 -144,0 -240,0c-96,0 -192,0 -288,0c-96,0 -192,0 -288,0c-96,0 -192,0 -288,0c-96,0 -192,0 -240,0l-48,0l0,63.47116l0,-0.00001z"
+          id="svg_1"
+        />
+      </g>
+    </svg>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
-    src="https://code.jquery.com/jquery-3.5.1.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-    crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
     <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/script.js"></script>
-    
-</body>
+  </body>
 </html>
