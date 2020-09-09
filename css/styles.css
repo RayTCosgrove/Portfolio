@@ -81,6 +81,12 @@ ul.technologies {
 
   }
 
+  .contact{
+    margin: 50px 10px 0px 10px;
+    width: 8em;
+    
+  }
+
   ul.technologies li::before {
     content: ">";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: #55d6c2; /* Change the color */
