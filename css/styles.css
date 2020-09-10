@@ -16,7 +16,6 @@
 * {
   font-family: "Dosis", sans-serif;
   font-size: 1em;
-
 }
 
 section.row {
@@ -27,11 +26,10 @@ section.row {
 html,
 body {
   height: 100%;
-  
 }
 
-body{
-  overflow-x:hidden;
+body {
+  overflow-x: hidden;
 }
 
 #navbar {
@@ -46,159 +44,153 @@ body{
 }
 
 li.socials {
-width: 24px;
-height: 24px;
-margin:16px auto 16px auto;
-padding: 16px auto 16px auto;
-background-color: transparent;
-list-style-type: none;
-list-style: none;
+  width: 24px;
+  height: 24px;
+  margin: 16px auto 16px auto;
+  padding: 16px auto 16px auto;
+  background-color: transparent;
+  list-style-type: none;
+  list-style: none;
 }
 
-a{
-    color: #ff5d73;
+a {
+  color: #ff5d73;
 }
-a:hover{
-    color: #ff5d73;
-}
-
-.ma5{
-margin: auto 5%;
-}
-.ma{
-  margin: auto 0
+a:hover {
+  color: #ff5d73;
 }
 
-.card-body:hover{
+.ma5 {
+  margin: auto 5%;
+}
+.ma {
+  margin: auto 0;
+}
+
+.card-body:hover {
   background-color: #f8f9fa;
 }
 
 ul.technologies {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    list-style-type: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-type: none;
+}
 
-  }
+.contact {
+  margin: 50px 10px 0px 10px;
+  width: 8em;
+}
 
-  .contact{
-    margin: 50px 10px 0px 10px;
-    width: 8em;
-    
-  }
-
-  .modal-lg{
+@media (min-width: 992px) {
+  .modal-lg,
+  .modal-xl {
     max-width: 60%;
   }
-
-  .badge{
-    background-color: #55d6c2;
-  }
-
-  ul.technologies li::before {
-    content: ">";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #55d6c2; /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-  }
-
-  ul.experience{
-    list-style-type: none;
-    padding-left: 20px;
-
-  }
-
-  ul.experience li::before {
-    content: ">";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #55d6c2; /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-  }
-
-.socials svg{
-    height: 24px;
-    width: 24px;
 }
-.socials svg:hover{
-    fill:  #ff5d73;
-    margin-bottom: 5px;
+.badge {
+  background-color: #55d6c2;
 }
 
+ul.technologies li::before {
+  content: ">"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #55d6c2; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+ul.experience {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+ul.experience li::before {
+  content: ">"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #55d6c2; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.socials svg {
+  height: 24px;
+  width: 24px;
+}
+.socials svg:hover {
+  fill: #ff5d73;
+  margin-bottom: 5px;
+}
 
 ul.socials {
-    list-style-type: none;
-    list-style: none;
+  list-style-type: none;
+  list-style: none;
 }
 
-.socials-left{
-    width: 40px;
-    position: fixed;
-    left: -240px;
-    bottom: 10px;
-    transition: left 2s;
+.socials-left {
+  width: 40px;
+  position: fixed;
+  left: -240px;
+  bottom: 10px;
+  transition: left 2s;
 }
 
-.socials-right{
-    width: 40px;
-    position: fixed;
-    right: -240px;
-    bottom: 10px;
-    transition: right 2s;
-    
+.socials-right {
+  width: 40px;
+  position: fixed;
+  right: -240px;
+  bottom: 10px;
+  transition: right 2s;
 }
 
-div.email-right{
-    display: flex;
-    flex-direction: column;
-    -webkit-box-align: center;
-    align-items: center;
-    position: relative;
+div.email-right {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
 }
 
-a.email-right{
-    writing-mode: vertical-lr;
-    color: black;
+a.email-right {
+  writing-mode: vertical-lr;
+  color: black;
 }
-a.email-right:hover{
-    color:  #ff5d73;
+a.email-right:hover {
+  color: #ff5d73;
 }
 
-
-#raymie{
+#raymie {
   position: absolute;
   bottom: 9%;
-  right:-25%;
+  right: -25%;
   z-index: -2;
   transition: right 2s;
-  transition-timing-function: cubic-bezier(0.25,0,.2,1.4);
+  transition-timing-function: cubic-bezier(0.25, 0, 0.2, 1.4);
   image-rendering: -webkit-optimize-contrast;
-  
 }
 
-
-#about-info{
-    font-size: 1.1rem;
+#about-info {
+  font-size: 1.1rem;
 }
 
-.card-body > ul > li{
+.card-body > ul > li {
   font-size: 0.8rem;
   margin-bottom: 5px;
 }
-.card-body > ul{
-  padding-left:10px;
+.card-body > ul {
+  padding-left: 10px;
 }
 
-.inner-vrule{
-    margin: 16px auto 0px auto;
-    width: 1px;
-    padding: 0px;
-    height: 100px;
-    background-color: black;
-    list-style-type: none;
+.inner-vrule {
+  margin: 16px auto 0px auto;
+  width: 1px;
+  padding: 0px;
+  height: 100px;
+  background-color: black;
+  list-style-type: none;
 }
 
 .strike {
@@ -249,7 +241,7 @@ a.email-right:hover{
   letter-spacing: 3px;
 }
 
-.ls-1{
+.ls-1 {
   letter-spacing: 1px;
 }
 
@@ -274,7 +266,7 @@ a.email-right:hover{
   animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
 }
 
-#backwave{
+#backwave {
   z-index: -3;
 }
 
@@ -288,37 +280,50 @@ a.email-right:hover{
   transform-origin: top;
 }
 
-
-
 /*Fade in animation*/
 #landing-info {
-   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 3s; /* Firefox < 16 */
-      -ms-animation: fadein 3s; /* Internet Explorer */
-       -o-animation: fadein 3s; /* Opera < 12.1 */
-          animation: fadein 3s;
-
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
 }
 
 @keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
