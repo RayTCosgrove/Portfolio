@@ -40,7 +40,7 @@ body{
   position: fixed;
   top: 0px;
   left: 0px;
-  z-index: 1100;
+  z-index: 5;
   transition: box-shadow 0.3s ease-in-out;
   transition: top 0.3s;
 }
@@ -85,6 +85,14 @@ ul.technologies {
     margin: 50px 10px 0px 10px;
     width: 8em;
     
+  }
+
+  .modal-lg{
+    max-width: 60%;
+  }
+
+  .badge{
+    background-color: #55d6c2;
   }
 
   ul.technologies li::before {
