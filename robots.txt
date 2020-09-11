@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://raymondcosgrove.com/sitemap.xml
