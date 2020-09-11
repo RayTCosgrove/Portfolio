@@ -199,8 +199,13 @@
                     </div>
                 </div>
             </div>
-            <img id="raymie" src="./images/raymie.webp" alt="Raymond Cosgrove" class="d-none d-xl-block" width="417px"
-                height="500px" />
+            <picture>
+                <source srcset="./images/raymie.webp" type="image/webp">
+                <source srcset="./images/raymie.jpg" type="image/jpeg">
+                    <img id="raymie" src="./images/raymie.webp" alt="Raymond Cosgrove" class="d-none d-xl-block" width="417px"
+                    height="500px" />
+            </picture>
+           
         </section>
 
         <section class="row pt-5 justify-content-center " id="projects">
@@ -220,8 +225,15 @@
 
                     </div>
                     <div class=" card-body ls-1">
-                        <img src="images/spotifuse.webp" style="object-fit:cover" width="100%" height="300px"
-                            alt="Raymond Cosgrove" />
+
+                        <picture>
+                            <source srcset="./images/spotifuse.webp" type="image/webp">
+                            <source srcset="./images/spotifuse.jpg" type="image/jpeg">
+                                <img src="images/spotifuse.webp" style="object-fit:cover" width="100%" height="300px"
+                                alt="Spotifuse" />
+                        </picture>
+
+                        
                     </div>
                     <div class="card-footer">
                         <button type="button" class="btn btn-lg btn-outline-primary" data-toggle="modal"
